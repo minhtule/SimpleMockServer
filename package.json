@@ -1,0 +1,8 @@
+{
+  "name": "mock-api",
+  "description": "for testing",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.12.2"
+  }
+}
