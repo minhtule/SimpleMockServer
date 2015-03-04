@@ -2,11 +2,11 @@ var express = require('express');
 var app = express();
 
 app.get('/success', function (req, res) {
-  res.json(200, {});
+  res.status(200).json({});
 });
 
 app.get('/error', function (req, res) {
-  res.json(404, {});
+  res.status(404).json({});
 });
 
 app.listen(8000);
